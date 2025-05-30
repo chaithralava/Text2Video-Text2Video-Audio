@@ -26,12 +26,12 @@ This project demonstrates how to generate **realistic videos from text prompts**
 
 ---
 
- Notes
+ ##**Notes
 float16 is used instead of bfloat16 due to limited GPU support (Turing architecture).
 
 Sequential CPU offloading allows CogVideoX to run on Colab, but generation may be slow (30–60 minutes per video).
 
-For better speed and quality, use Ampere or newer GPUs.
+For better speed and quality, use Ampere or newer GPUs.**
 
 📦 Output Example
 Prompt:
